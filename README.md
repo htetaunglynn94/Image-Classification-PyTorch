@@ -8,7 +8,23 @@ A deep learning image classification application built with **PyTorch** and **Gr
 
 The trained CNN model is loaded by the application to generate a prediction and return a labeled image.
 
+## Configuration 
 
+---
+title: {{title}}
+emoji: {{emoji}}
+colorFrom: {{colorFrom}}
+colorTo: {{colorTo}}
+sdk: {{sdk}}
+sdk_version: "{{sdkVersion}}"
+{{#pythonVersion}}
+python_version: "{{pythonVersion}}"
+{{/pythonVersion}}
+app_file: app.py
+pinned: false
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 ## Live Demo
 
