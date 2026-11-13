@@ -1,15 +1,3 @@
-# Image Classification using PyTorch
-
-A deep learning image classification application built with **PyTorch** and **Gradio**. Upload an image to the web application to classify it as one of the following categories:
-
--   Dog
--   Cat
--   Person
-
-The trained CNN model is loaded by the application to generate a prediction and return a labeled image.
-
-## Configuration 
-
 ---
 title: {{title}}
 emoji: {{emoji}}
@@ -23,6 +11,17 @@ python_version: "{{pythonVersion}}"
 app_file: app.py
 pinned: false
 ---
+
+# Image Classification using PyTorch
+
+A deep learning image classification application built with **PyTorch** and **Gradio**. Upload an image to the web application to classify it as one of the following categories:
+
+-   Dog
+-   Cat
+-   Person
+
+The trained CNN model is loaded by the application to generate a prediction and return a labeled image.
+
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
